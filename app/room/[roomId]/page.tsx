@@ -1,5 +1,7 @@
 import PuzzleRoomClient from "./PuzzleRoomClient";
 
+export const instant = false;
+
 export default async function Page({
   params,
 }: {
